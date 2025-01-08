@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Added Google Font -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Social Links Style */
+        .social-links {
+            background-color: white;
+            color: black;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 10px 0; /* Adjusted for vertical layout */
+            font-size: 20px;
+            display: block; /* Changed to block for vertical layout */
+            border-radius: 5px;
+            font-weight: 700;
+            background-color: black; /* Set black background */
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #fff;
+            background-color: #444; /* Slightly lighter black on hover */
+        }
+
+        /* Logo Style */
+        img.logo {
+            width: 100%; /* Made logo responsive */
+            max-width: 250px; /* Set max-width to prevent the logo from getting too large */
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            animation: logoAnimation 3s ease-in-out infinite;
+        }
+
+        /* Logo Animation */
+        @keyframes logoAnimation {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Company Logo with dynamic effect -->
+    <img src="https://imgur.com/a/VctXas8" alt="Company Logo" class="logo">
+
+    <!-- Social Links -->
+    <div class="social-links">
+        <a href="https://www.instagram.com/lenore_21?igsh=eWg3d3RyN2hmd2Nj" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@lenore1002?_t=ZS-8stMVUdOvhA&_r=1" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/profile.php?id=61567833187813&mibextid=ZbWKwL" target="_blank">Facebook</a>
+    </div>
+</body>
+</html>
